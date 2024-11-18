@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ayush's personal portfolio - Aspiring Software Engineer and creator of impactful projects.">
+    <meta name="keywords" content="Ayush, Software Engineer, Portfolio, Projects, Developer">
+    <meta name="author" content="Ayush">
+    <title>Ayush Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #0a192f;
+            color: #ccd6f6;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+        }
+
+        .navbar a {
+            color: #ccd6f6;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+
+        .navbar a:hover {
+            color: #64ffda;
+        }
+
+        .navbar .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .navbar .social-icons a {
+            margin: 0 10px;
+            font-size: 18px;
+            transition: transform 0.3s ease, color 0.3s ease;
+        }
+
+        .navbar .social-icons a:hover {
+            color: #64ffda;
+            transform: scale(1.2);
+        }
+
+        .content {
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        .content img {
+            width: 100px;
+            margin-bottom: 50px;
+            border-radius: 50%;
+        }
+
+        .content h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+
+        .content h1 .highlight {
+            color: #64ffda;
+        }
+
+        .content h2 {
+            font-size: 24px;
+            font-weight: normal;
+            color: #8892b0;
+            margin: 20px 0;
+        }
+
+        .content p {
+            font-size: 16px;
+            color: #8892b0;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        @media (max-width: 768px) {
+            .navbar {
+                flex-direction: column;
+                padding: 20px;
+            }
+
+            .nav-links,
+            .social-icons {
+                margin-top: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="#home"><div class="logo">Ayush</div></a>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+        </div>
+        <div class="social-icons">
+            <a href="mailto:workwthayush@gmail.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a>
+            <a href="https://github.com/workwthayuxh" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/ayush-kumar-bb3515321/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="https://ayush-blog.com" target="_blank" title="Blog"><i class="fas fa-pen"></i></a>
+        </div>
+    </div>
+
+    <div class="content" id="home">
+        <img alt="Profile Picture" src="https://storage.googleapis.com/a1aa/image/jWd0VZBCGiYqEthf0I6Opnw6f2lCWfwqxxFVlZdnIqUeOJJPB.jpg" />
+        <h1>
+            Hi, <span class="highlight">Ayush</span> here.
+        </h1>
+        <h2>I create stuff sometimes.</h2>
+        <p>
+            I’m an aspiring software engineer from India. I’m fascinated by large-scale, high-impact products and have
+            contributed to major feature launches.
+        </p>
+    </div>
+</body>
+
+</html>
